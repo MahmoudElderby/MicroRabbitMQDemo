@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domain.Core", "MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{4B34F84C-0B15-40B4-8D99-410996B30730}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{D0BF9943-84DF-42A9-9B45-6D4968587414}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{D0BF9943-84DF-42A9-9B45-6D4968587414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IoC", "MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{54997786-2525-4432-8FDC-85606D65E5C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{D0BF9943-84DF-42A9-9B45-6D4968587414}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0BF9943-84DF-42A9-9B45-6D4968587414}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0BF9943-84DF-42A9-9B45-6D4968587414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54997786-2525-4432-8FDC-85606D65E5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54997786-2525-4432-8FDC-85606D65E5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54997786-2525-4432-8FDC-85606D65E5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54997786-2525-4432-8FDC-85606D65E5C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4B34F84C-0B15-40B4-8D99-410996B30730} = {E7CBAAD7-2BFB-47F0-92E4-F7AA8756A6D7}
 		{D0BF9943-84DF-42A9-9B45-6D4968587414} = {EBFBC1B1-60E8-4AF3-8C9F-00B575D77B5C}
+		{54997786-2525-4432-8FDC-85606D65E5C2} = {F55DD5B5-3390-4135-8D7F-F566D46D7B39}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F24BA6A9-41E8-499F-A6AB-A5A17789AC49}
